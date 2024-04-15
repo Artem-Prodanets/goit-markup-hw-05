@@ -564,6 +564,10 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     margin-left: auto;
 }
 
+.footer-form {
+display: flex;
+}
+
 .footer-social-paragraph {
     font-weight: 500;
     font-size: 16px;
@@ -801,7 +805,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    /* display: inline-flex; */
     align-items: center;
     margin-bottom: 24px;
 }
