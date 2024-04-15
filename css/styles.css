@@ -558,7 +558,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     align-items: baseline
 }
 
-.footer-subscribe {
+/* ==FOOTER FORM== */
+
+.footer-subscribe-container {
     display: flex;
     /* justify-content: space-between; */
     margin-left: auto;
@@ -566,6 +568,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 .footer-form {
 display: flex;
+gap: 24px;
 }
 
 .footer-social-paragraph {
