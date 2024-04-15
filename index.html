@@ -492,7 +492,12 @@
           <div class="label-field">
             <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-wrap">
-              <input type="text" name="user-name" class="modal-input" />
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                id="user-name"
+              />
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -529,17 +534,18 @@
             </div>
           </div>
 
-          <div class="label-field">
+          <div class="textarea-field">
             <label for="user-comment" class="modal-label">Comment</label>
-            <div class="modal-input-wrap">
-              <textarea
-                name="user-comment"
-                rows="5"
-                placeholder="Text input"
-                class="modal-textarea"
-                id="user-comment"
-              ></textarea>
-            </div>
+            <!-- <div class="modal-input-wrap"> -->
+            <textarea
+              name="user-comment"
+              rows="5"
+              placeholder="Text input"
+              class="modal-textarea"
+              id="user-comment"
+            >
+            </textarea>
+            <!-- </div> -->
           </div>
 
           <div class="label-field">

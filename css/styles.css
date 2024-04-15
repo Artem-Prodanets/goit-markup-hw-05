@@ -740,6 +740,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     margin-bottom: 8px;
 }
 
+.textarea-field {
+    margin-bottom: 16px;
+}
 .modal-label {
     display: block;
     font-size: 12px;
