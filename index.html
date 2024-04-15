@@ -461,9 +461,7 @@
         <div class="footer-subscribe">
           <form class="footer-form">
             <p class="footer-social-paragraph">Subscribe</p>
-            <label class="visually-hidden" for="subscribe" class="footer-label"
-              >Subscribe
-            </label>
+            <label class="footer-label visually-hidden">Subscribe </label>
             <input
               type="email"
               name="subscribe"
@@ -473,7 +471,7 @@
             />
             <button class="btn-subscribe" type="submit">
               Subscribe
-              <svg class="subscribe-icon" width="24" heith="20">
+              <svg class="subscribe-icon" width="24" height="20">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -482,25 +480,27 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
-          <svg class="icon-close" width="8" heith="8">
+          <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <!-- ЦЕЙ ПУНКТ ДЛЯ ПЕРЕВІРКИ АВТОПЕРЕВІРКИ -->
-          <label class="modal-label">
-            <span class="test-perevirki">Name</span>
+          <div class="label-field">
+            <label for="user-name" class="modal-label">
+              <span class="test-perevirki">Name</span></label
+            >
             <div class="modal-input-wrap">
               <input type="text" name="user-name" class="modal-input" />
-              <svg class="modal-input-icon" width="18" heith="24">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-          </label>
+          </div>
 
           <div class="label-field">
             <label for="user-tel" class="modal-label">Phone</label>
@@ -511,7 +511,7 @@
                 class="modal-input"
                 id="user-tel"
               />
-              <svg class="modal-input-icon" width="18" heith="24">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -526,21 +526,21 @@
                 class="modal-input"
                 id="user-email"
               />
-              <svg class="modal-input-icon" width="18" heith="24">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
 
           <div class="label-field">
-            <label for="comment" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <div class="modal-input-wrap">
               <textarea
-                name="comment"
+                name="user-comment"
                 rows="5"
                 placeholder="Text input"
                 class="modal-textarea"
-                id="comment"
+                id="user-comment"
               ></textarea>
             </div>
           </div>
@@ -548,14 +548,14 @@
           <div class="label-field">
             <input
               type="checkbox"
-              name="terms"
-              id="terms"
+              name="user-privacy"
+              id="user-privacy"
               class="terms-check visually-hidden"
               value="true"
             />
-            <label for="terms" class="terms-text">
+            <label for="user-privacy" class="terms-text">
               <span>
-                <svg class="check-icon" width="10" heith="8">
+                <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
